@@ -1,0 +1,36 @@
+{
+  "name": "state_channel_erc20",
+  "author": "Anton Walbrook <anton.walbrook99@gmail.com>",
+  "version": "1.0.0",
+  "description": "State channel off-chain payment with on-chain settlement.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle migrate --reset && truffle test",
+    "coverage": "./node_modules/.bin/solidity-coverage"
+  },
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "dotenv": "^6.0.0",
+    "ethereumjs-abi": "^0.6.5",
+    "ethereumjs-util": "^5.2.0",
+    "truffle-contract": "^3.0.6",
+    "zeppelin-solidity": "^1.11.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "solidity-coverage": "^0.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarNeit/state_channel_erc20.git"
+  },
+  "keywords": [
+    "Payment",
+    "Channels",
+    "State",
+    "Channels",
+    "Ethereum",
+    "Blockchain"
+  ]
+}
