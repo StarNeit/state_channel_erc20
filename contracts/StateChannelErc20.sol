@@ -5,9 +5,9 @@ import "zeppelin-solidity/contracts/ECRecovery.sol";
 
 /**
  * @title StateChannelErc20
- * @author Anton Walbrook <anton.walbrook99@gmail.com>
+ * @author Anton Walbrook  <anton.walbrook99@gmail.com>
  *
- * @dev Ethereum payment channels allow for off-chain transactions with an on-chain
+ * @dev Ethereum payments channels allow for off-chain transactions with an on-chain
  * settlement. In this implementation, a party (sender) can open a channel with a
  * deposit, expiration, and recipient. The sender can then sign transactions off-chain
  * and send them to the recipient, who can submit one of these signed transactions to
